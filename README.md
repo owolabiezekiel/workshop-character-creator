@@ -28,6 +28,12 @@ Boot up a dev server:
 npm run start
 ```
 
+Incase you get some errors about some cryptography related stuff, run the following command:
+
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+
 You should be able to access the application at `http://localhost:3000`.
 
 ## Troubleshooting
